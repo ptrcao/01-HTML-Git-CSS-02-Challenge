@@ -153,7 +153,7 @@ Link fixed: class="search-engine-optimization" changed to id="search-engine-opti
 
   c. Consolidated `.benefit-lead img, .benefit-brand img, .benefit-cost img` as they share the exact same styling
 
-  d. Consolidated `.search-engine-optimization, .online-reputation-management, .social-media-marketing img` as they share the exact same styling
+  d. Consolidated `.search-engine-optimization, .online-reputation-management, .social-media-marketing` as they share the exact same styling
 
   e. Consolidated `.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img` as they share the exact same styling
 
@@ -161,12 +161,12 @@ Link fixed: class="search-engine-optimization" changed to id="search-engine-opti
 
 Furthermore, several `<div>` tags were replaced with semantic HTML tags in line with HTML accessibility practices, in the HTML file, and any redundant/unused classes were then removed.  Corresponding edits needed to be made in the CSS file so that the relevant selectors were replaced with semantic element selectors.  These included replacing various div and class CSS selectors with the following semantic elements:
 
-* `<header></header>`
-* `<nav></nav>`
-* `<footer></footer>`
-* `<section></section>`
-* `<main></main>`
-* `<aside></aside>`
+* `header`
+* `nav`
+* `footer`
+* `section`
+* `main`
+* `aside`
 
 > Application's CSS file is properly commented.
 
