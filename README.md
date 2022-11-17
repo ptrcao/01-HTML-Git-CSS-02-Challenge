@@ -141,7 +141,7 @@ Changed from generic to descriptive title: `<title>website</title>` -> `<title>H
 
 > Application's links all function correctly.
 
-Link fixed: class="search-engine-optimization" changed to id="search-engine-optimization" to fix a broken link.
+Link fixed: `class="search-engine-optimization"` changed to `id="search-engine-optimization"` to fix a broken link.
 
 > Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
 
